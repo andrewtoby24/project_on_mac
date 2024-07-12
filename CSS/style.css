@@ -1,0 +1,234 @@
+/* Universal Selector */
+/* *{ */
+    /* color: red; */
+/* } */
+
+/* Tag or Element Selector */
+h1{
+    text-align: center;
+    color: green;
+}
+
+/* Attribute Selector */
+a[title="google"]{
+    letter-spacing: 20px;
+}
+
+/* ID Selector */
+#idselector{
+    text-indent: 40px;
+}
+
+/* Class Selector */
+.classselector{
+    color: brown;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 40px;
+}
+
+/* Descendent Selector */
+div p{
+    background-color: yellow;
+}
+
+/* Child Selector */
+div>p{
+    color: black;
+}
+
+span>p{
+    color: blue;
+}
+
+/* Hover Selector */
+h1 a:hover {
+    color: white;
+    font-size: 50px;
+    background-color: blueviolet;
+}
+
+h2 a:hover {
+    color: blue;
+}
+
+h2 a:link {
+    color: green;
+}
+
+h2 a:visited {
+    color: brown;
+}
+
+h2 a:active {
+    color:yellow;
+}
+
+/* Target Selector */
+:target {
+    color: red;
+    border: 5px solid black;
+    line-height: 10px;
+    letter-spacing: 10px;
+}
+
+/* Border */
+.borderone{
+    border: 5px solid red;
+}
+
+.bordertwo{
+    border-top: 10px solid yellow;
+    border-left: 10px solid yellow;
+}
+
+.borderthree{
+    border-color: brown yellow;
+    /* Border Style : Solid; */
+    /* Top & Right & Bottom & Left */
+    /* Border-Style : solid dotted; */
+    /* Top bottom & Left Right */
+    /* border-style : solid dotted double; */
+    /* Top & Left Right & Bottom */
+    border-style: solid dotted double dashed;
+    /* Top & Right & Bottom & Left */
+}
+
+.borderwidth{
+    border-style: solid;
+    border-width: 3px 30px;
+}
+
+/* Margin */
+.marginone{
+    margin: 10px 30px 40px 100px;
+    border: 1px solid green;
+}
+
+.margintwo{
+    margin-top: 100px;
+}
+
+/* Padding */
+.padding{
+    /* padding: 100px; */
+    padding-top: 50px;
+    border: 1px solid red;
+}
+
+/* Layout */
+.inline{
+    border: 2px solid red;
+    display: inline-block;
+    width: 400px;
+}
+
+.block{
+    border: 2px solid green;
+    width: 400px;
+    display: inline-block;
+}
+
+/* Float */
+.float_right img{
+    width: 40%;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.float_left img{
+    width: 40%;
+    float: left;
+}
+
+/* Grid */
+.gridOne div,.gridTwo div,.gridThree div,.gridFour div,.gridFive div,.gridSix div{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.gridOne,.gridTwo,.gridThree,.gridFour,.gridFive,.gridSix{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridTwo{
+    grid-column-gap: 40px;
+}
+
+.gridThree{
+    grid-row-gap: 40px;
+}
+
+.gridFour{
+    grid-gap: 40px;
+}
+
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* Position */
+.parent_absolute{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.absolute{
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.parent_relative{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid blue;
+}
+
+.relative{
+    width: 400px;
+    height: 200px;
+    border: 2px solid purple;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+.fixed{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* Font */
+.online {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Jost";
+    src: url(Jost/Jost-VariableFont_wght.ttf);
+}
+
+.offline{
+    font-family: "Jost";
+}
+  
