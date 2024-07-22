@@ -183,10 +183,10 @@
 }
 /* End Footer */
 
-/* Start Review Pages */
+/* Start Phone Pages */
 /* Start Back Button */
 .btn{
-    margin: 100px 50px 50px 50px;
+    margin: 100px 0px 50px 100px;
 }
 
 .btn a button{
@@ -203,36 +203,42 @@
 }
 /* End Back Button */
 
-/* Start Full review */
-.full_rev{
-    margin: 50px 50px 50px 50px;
-}
-
-.full_rev img{
-    width: 60%;
-    margin-top: 20px;
+/* Start Phone Section */
+.first_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px 100px 50px 100px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
 }
 
-.author{
-    margin-top: 20px;
-    font-size: 18px;
-    opacity: 0.7;
+.title_grid{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 1px solid gray;
+    background-color: #0b0f58;
+    color: white;
+    padding: 10px 20px 10px 20px;
 }
 
-.rev_para{
+.first_grid img{
+    max-width: 100%;
+    padding-left: 40px;
+}
+
+.des_info{
+    padding: 50px 100px 50px 200px;
     text-align: justify;
-    margin-top: 30px;
 }
 
-.rev_para p{
-    margin-top: 10px;
-    line-height: 27px;
+.des_info h3{
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
-.title2{
-    margin-top: 20px;
+.pros{
+    padding-top: 40px;
 }
-/* End Full Review */
-/* End Review Pages */
+
+.des_info ul li{
+    margin-left: 20px;
+}

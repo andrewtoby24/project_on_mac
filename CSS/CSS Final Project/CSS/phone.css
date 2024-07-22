@@ -183,56 +183,61 @@
 }
 /* End Footer */
 
-/* Start Review Pages */
-/* Start Back Button */
-.btn{
-    margin: 100px 50px 50px 50px;
+/* Start Phone Page */
+/* Start Phones Grid Layout */
+.body{
+    background-color: #f1f1f1;
 }
 
-.btn a button{
-    padding: 5px 20px 5px 20px;
-    border: 1px solid gray;
-    border-radius: 5px;
-}
-
-.btn a button:hover{
-    background-color: #1991ff;
+.page_title{
+    background-color: #3c3c3c;
     color: white;
-    border: 1px solid #1991ff;
-    border-radius: 5px;
-}
-/* End Back Button */
-
-/* Start Full review */
-.full_rev{
-    margin: 50px 50px 50px 50px;
-}
-
-.full_rev img{
-    width: 60%;
-    margin-top: 20px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    margin: 100px 50px 80px 50px;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
     border-radius: 10px;
+    text-transform: uppercase;
 }
 
-.author{
-    margin-top: 20px;
-    font-size: 18px;
-    opacity: 0.7;
+.sub_title{
+    background-color: #555;
+    color: white;
+    margin: 0px 50px 0px 50px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
 }
 
-.rev_para{
-    text-align: justify;
-    margin-top: 30px;
+.phone_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px 50px 80px 50px;
+    grid-gap: 30px;
 }
 
-.rev_para p{
-    margin-top: 10px;
-    line-height: 27px;
+.phone_grid img{
+    width: 50%;
+    padding-left: 80px;
 }
 
-.title2{
-    margin-top: 20px;
+.grid_case{
+    border: 1px solid transparent;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
 }
-/* End Full Review */
-/* End Review Pages */
+
+.grid_case p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.phone_grid a{
+    text-decoration: none;
+}
+
+.grid_case:hover{
+    border:1px solid red;
+    box-sizing: border-box;
+}
