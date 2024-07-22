@@ -183,199 +183,97 @@
 }
 /* End Footer */
 
-/* Start Home Page */
+/* Start About Us Page */
 /* Start Banner */
 .banner{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
     background: linear-gradient(180deg, #17171c, #151631);
-    padding: 50px;
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
     margin-top: 70px;
 }
 
-.iph16vS24{
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
-
-.iph16vS24 img{
-    max-width: 50%;
-    border-radius: 10px;
-}
-
-.iph16vS24 a{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    float: right;
-    padding-top: 110px;
-    width: 45%;
-    font-size: 40px;
-}
-
-.iph16vS24:hover a{
-    color: #1991ff;
-}
-
-.zfold6b img,.redmi13b img,.pixel8ab img{
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.zfold6b a,.redmi13b a,.pixel8ab a{
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    text-align: center;
-}
-
-.zfold6b:hover a,.redmi13b:hover a,.pixel8ab:hover a{
-    color: #1991ff;
-}
-
-/* Start Phone Showcase */
-.ps_header{
-    font-size: 30px;
-    margin-left: 50px;
-    margin-top: 70px;
-}
-.phone_showcase{
-    padding: 30px 50px 50px 50px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px;
-}
-
-.phone_showcase img{
-    width: 50%;
-    padding-left: 90px;
-}
-
-.ps{
-    border: 1px solid none;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.1);
-}
-
-.ps_title{
-    font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 5px;
-    border: 1px solid #1991ff;
-    background-color: #1991ff;
-    border-radius: 5px;
-    color: white;
-    padding-left: 5px;
-    padding-top: 3px;
-    text-align: center;
-}
-
-.ps_specs table tr th{
-    text-align: left;
-}
-
-.ps_specs table tr td{
-    text-align: left;
-    padding: 2px 10px 2px 100px;
-}
-
-.ps_specs{
-    line-height: 30px;
-}
-
-.ps a button{
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid gray;
-    border-radius: 5px;
+.banner img{
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-left: 35%;
 }
+/* End Banner */
 
-.ps a button:hover{
-    background-color: #1991ff;
-    border-radius: 5px;
-    border: 1px solid #1991ff;
-    color: white;
-}
-/* End Phone Showcase */
-
-/* Start Recommended Phones */
-.rec_ph{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 30px;
-    padding: 30px 50px 50px 50px;
+/* Start About Us */
+.AS_title{
+    margin: 50px 50px 0px 50px;
+    text-align: center;
 }
 
-.rec_ph img{
-    width: 50%;
+.AS_para{
+    margin: 20px 50px 0px 50px;
+    text-align: center;
 }
+/* End About Us */
 
-.rec_specs1 img{
-    padding-bottom: 15px;
+/* Start Our Story */
+.OS{
+    margin-top: 100px;
 }
-
-.rec_header{
-    font-size: 30px;
-    margin-left: 50px;
-    margin-top: 70px;
-}
-
-.rec_specs,.rec_specs1{
-    border: 1px solid none;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.1);
-}
-
-.rec_specs span,.rec_specs1 span{
-    float: right;
-    color: red;
-    font-size: 20px;
-}
-/* End Recommended Phones */
-
-/* Start Popular Comparison */
-.pop_com_header{
-    font-size: 30px;
-    margin-left: 50px;
+.OS_title{
+    margin: 20px 50px 0px 50px;
     margin-top: 50px;
+    text-align: center;
 }
 
-.pop_com{
+.OS_para{
+    margin: 20px 50px 0px 50px;
+    text-align: center;
+}
+/* End Our Story */
+
+/* Start Our Mission */
+.OM{
+    text-align: center;
+    margin: 100px 50px 100px 50px;
+}
+/* End Our Mission */
+
+/* Start Our Values */
+.OV_title{
+    text-align: center;
+    margin: 20px 50px 0px 50px;
+}
+
+.OV_grid{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 20px;
-    padding: 30px 50px 50px 50px;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px 50px 0px 50px;
+    grid-column-gap: 20px;
 }
 
-.pop_com img{
-    width: 300px;
-    height: 170px;
-    border-radius: 5px;
-}
-
-.pop_com1{
+.OV_info{
     border: 1px solid none;
+    background: linear-gradient(0deg, #151631, #0f1367);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.OV_info h2{
+    padding-bottom: 10px;
+}
+/* End Our Values */
+
+/* Start Stay Connected */
+.SC_title{
+    margin: 100px 50px 30px 50px;
+    text-align: center;
+}
+
+.SC_icon{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.SC_icon1{
+    color: orange;
+    padding: 20px;
     border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.1);
 }
-
-.pop_com1 a h3{
-    float: right;
-    width: 50%;
-    text-decoration: none;
-    color: black;
-}
-
-.pop_com1 a h3:hover{
-    color: #1991ff;
-}
-/* End Popular Comparison */
-/* End Home Page */
-
-/* Start About Us Page */
+/* End Stay Connected */
+/* End About Us Page */
