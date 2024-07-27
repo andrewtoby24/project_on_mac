@@ -34,10 +34,12 @@
 .nav_item ul li:nth-child(1),.nav_item ul li:nth-child(2),.nav_item ul li:nth-child(3){
     float: left;
     padding-left: 120px;
+    text-transform: uppercase;
 }
 
 .nav_item ul li:nth-child(4),.nav_item ul li:nth-child(5),.nav_item ul li:nth-child(6){
     padding-right: 110px;
+    text-transform: uppercase;
 }
 
 .nav_item li a{
@@ -195,6 +197,7 @@
     padding: 80px 50px 80px 50px;
     text-align: center;
     font-size: 40px;
+    text-transform: uppercase;
 }
 /* End Banner */
 
@@ -229,3 +232,4 @@
 .rev_infos a h2:hover{
     color: #1991ff;
 }
+/* End Reviews Section */

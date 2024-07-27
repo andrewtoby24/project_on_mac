@@ -34,10 +34,12 @@
 .nav_item ul li:nth-child(1),.nav_item ul li:nth-child(2),.nav_item ul li:nth-child(3){
     float: left;
     padding-left: 120px;
+    text-transform: uppercase;
 }
 
 .nav_item ul li:nth-child(4),.nav_item ul li:nth-child(5),.nav_item ul li:nth-child(6){
     padding-right: 110px;
+    text-transform: uppercase;
 }
 
 .nav_item li a{
@@ -226,7 +228,7 @@
 }
 
 .des_info{
-    padding: 50px 100px 50px 200px;
+    padding: 60px 100px 50px 200px;
     text-align: justify;
 }
 
@@ -241,4 +243,48 @@
 
 .des_info ul li{
     margin-left: 20px;
+    line-height: 27px;
 }
+/* End Phone Section */
+
+/* Start Details Sections */
+.detail_sec{
+    margin: 50px 100px 80px 100px;
+}
+
+.detail_sec h2{
+    padding-bottom: 20px;
+}
+
+.detail_sec table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detail_sec thead tr th{
+    text-align: left;
+    border: 1px solid #0b0f58;
+    background-color: #0b0f58;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.detail_sec tbody tr th{
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detail_sec tbody tr td{
+    text-align: left;
+    padding-left: 200px;
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* End Details Section */

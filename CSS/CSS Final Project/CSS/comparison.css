@@ -185,56 +185,51 @@
 }
 /* End Footer */
 
-/* Start Review Pages */
-/* Start Back Button */
-.btn{
-    margin: 100px 50px 50px 50px;
+/* Start Comparison Page */
+/* Start Banner */
+.banner{
+    margin-top: 70px;
+    background: linear-gradient(180deg, #17171c, #151631);
 }
 
-.btn a button{
-    padding: 5px 20px 5px 20px;
-    border: 1px solid gray;
-    border-radius: 5px;
-}
-
-.btn a button:hover{
-    background-color: #1991ff;
+.banner h1{
     color: white;
-    border: 1px solid #1991ff;
+    padding: 80px 50px 80px 50px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/* End Banner */
+
+/* Start Comparisons Section */
+.com_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px 50px 50px 50px;
+    grid-gap: 20px;
+}
+
+.com_infos{
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.1);
+}
+
+.com_infos img{
+    width: 300px;
+    height: 150px;
     border-radius: 5px;
 }
-/* End Back Button */
 
-/* Start Full review */
-.full_rev{
-    margin: 50px 50px 50px 50px;
+.com_infos a h2{
+    float: right;
+    width: 50%;
+    text-decoration: none;
+    color: black;
 }
 
-.full_rev img{
-    width: 60%;
-    margin-top: 20px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+.com_infos a h2:hover{
+    color: #1991ff;
 }
-
-.author{
-    margin-top: 20px;
-    font-size: 18px;
-    opacity: 0.7;
-}
-
-.rev_para{
-    text-align: justify;
-    margin-top: 30px;
-}
-
-.rev_para p{
-    margin-top: 10px;
-    line-height: 27px;
-}
-
-.title2{
-    margin-top: 40px;
-}
-/* End Full Review */
-/* End Review Pages */
+/* End Comparisons Section */
